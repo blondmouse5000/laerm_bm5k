@@ -1,0 +1,4 @@
+baseURL = "https://laerm.ftl"
+cleandestinationdir = true
+[minify]
+	minifyOutput = true

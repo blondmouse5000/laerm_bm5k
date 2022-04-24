@@ -1,0 +1,34 @@
+/* --- SCROLLBAR --- */
+
+$-scrollbar-thick: 0.8vw;
+$-scrollbar-min-thick: 6px;
+$-scrollbar-max-thick: 12px;
+// $scrollbar-track-color: #0000ff; //mat-color(theme.$primary, 300) !default;
+// $scrollbar-thumb-color: #00ff00;
+// $scrollbar-thumb-color-hover:  #ffff00;
+
+::-webkit-scrollbar {
+  border: none;
+  &:vertical {
+    width: $-scrollbar-thick;
+    min-width: $-scrollbar-min-thick;
+    max-width: $-scrollbar-max-thick;
+  }
+  &:horizontal {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar-track {
+  // background:  var(--b_med);
+  background:  var(--f_med);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--b_med);
+  border-top: 4px var(--f_med) solid;
+  border-bottom: 4px var(--f_med) solid;
+  &:hover {
+    background: var(--f_inv);
+  }
+}

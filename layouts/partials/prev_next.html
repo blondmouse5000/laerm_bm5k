@@ -1,0 +1,13 @@
+{{ if or .NextInSection .PrevInSection }}
+<nav class="prev_next">
+	{{ with .PrevInSection }}
+	<a href="{{ .RelPermalink }}" rel="prev" title="{{ .Title }}"></a>
+	{{ end }}
+	<!-- <a href="../" rel="next" title="Zur Übersicht">
+		<img src="{{ .Site.BaseURL }}/graphics/icon-overview.svg" alt="Übersicht">
+	</a> -->
+	{{ with .NextInSection }}
+	<a href="{{ .RelPermalink }}" rel="next" title="{{ .Title }}"></a>
+	{{ end }}
+</nav>
+{{ end }}

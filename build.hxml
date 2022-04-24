@@ -1,0 +1,9 @@
+-js static/app.js
+-main laerm.App
+-cp src
+-lib om.audio
+-lib three.hx
+-dce full
+-D js-es=6
+-D analyzer-optimize
+-D source-header=

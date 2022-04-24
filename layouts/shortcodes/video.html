@@ -1,0 +1,26 @@
+{{ $src := .Get 0 }}
+{{ if $src }}
+	<video
+	{{ with .Get 1 }} autoplay {{ end }}
+	{{ with .Get 2 }} controls {{ end }}
+	{{ with .Get 3 }} loop {{ end }}
+	{{ with .Get 4 }} muted {{ end }}>
+		{{ if .Page.Resources.Match $src }}
+			{{ $ext := path.Ext $src }}
+			{{ $ext2 := "" }}
+			{{ if eq $ext ".mp4" }}
+				{{ $ext2 = ".webm" }}
+			{{ else if eq $ext ".webm" }}
+				{{ $ext2 = ".mp4" }}
+			{{ end }}
+			<source src="{{ $src }}" type="{{ substr $ext 1 }}">
+			{{ $name := (substr $src 0 (sub (len $src) (len $ext))) }}
+			{{ $src2 := print $name $ext2 }}
+			{{ if .Page.Resources.Match $src2 }}
+				<source src="{{ $src2 }}" type="video/{{ substr $ext2 1 }}">
+			{{ end }}
+		{{ else }}
+			<source src="{{ $src | safeURL }}">
+		{{ end }}
+	</video>
+{{ end }}

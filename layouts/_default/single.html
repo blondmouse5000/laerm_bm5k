@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main>
+    <article>
+        <h2>{{- .Title -}}</h2>
+        <section>{{- .Content -}}</section>
+    </article>
+	<!--<article>-->
+		<!--<header>-->
+			<!--<h1>{{- .Title -}}</h1>-->
+			<!--<div class="meta">-->
+				<!--{{ if .Date }}<time datetime="{{.Date}}">{{.Date.Format "2006/01/02"}}</time>{{ end }}-->
+			<!--</div>-->
+		<!--</header>-->
+		<!--{{ if .Content }}<section class="content">{{- .Content -}}</section>{{ end }}-->
+	<!--</article>-->
+</main>
+{{ end }}

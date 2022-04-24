@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main>
+	<!--{{ $paginator := .Paginate .Data.Pages }}-->
+	<!--{{ partial "pagination" . }}-->
+	{{ if .Title }}<h1>{{- .Title -}}</h1>{{ end }}
+	{{ if .Content }}<section class="content">{{- .Content -}}</section>{{ end }}
+    <ol>
+        {{ range $paginator.Pages }}
+        {{ .Render "li" }}
+        {{ end }}
+    </ol>
+</main>
+{{ end }}

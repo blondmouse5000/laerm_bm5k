@@ -1,0 +1,69 @@
+@use 'breakpoint';
+
+body {
+    display: grid;
+    grid-template-columns: [main-start] 1fr [main-end];
+    grid-template-rows: auto [main-start] 1fr [main-end] auto; 
+    gap: var(--app-border);
+    padding: var(--app-border);
+    background: var(--fg);
+    > * {
+        background: var(--yellow);
+        padding: 1rem 1.5rem;
+    }
+    > header {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        user-select: none;
+        h1 {
+            font-size: 16vw;
+            margin: 0;
+            line-height: 1;
+       }
+    }
+    > main {
+        position: relative;
+        width: 100%;
+        //background: green;
+        //display: flex;
+        //justify-content: center;
+        text-align: center;
+        overflow-y: scroll;
+        > article {
+            position: relative;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem 0;
+            img {
+                width: 100%;
+            }
+        }
+        .background-media {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            user-select: none;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+    }
+    > footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        font-weight: bold;
+        user-select: none;
+        > i {
+            margin: 0 0.5em;
+        }
+    }
+}
+

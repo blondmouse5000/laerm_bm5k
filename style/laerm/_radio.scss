@@ -1,0 +1,75 @@
+main {
+    > canvas {
+        position: absolute;
+        cursor: help;
+        z-index: 100;
+        // background: red;
+        // display: none;
+        /* &.hidden {
+            display: none;
+        } */
+        &.hidden {
+            cursor: default;
+            pointer-events: none;
+            display: none;
+        }
+    }
+    > .info {
+        position: absolute;
+        //top:  50%;
+        //left: 50%;
+        width: 100%;
+        height: auto;
+        //background: red;
+        text-align: center;
+        //transform: translateY(50%);
+        font-family: "Title";
+        font-size: 18vw;
+        font-weight: bold;
+        color: var(--f_med);
+        cursor: pointer;
+        user-select: none;
+        z-index: 1000;
+        &.hidden {
+            display: none;
+        }
+    }
+    > .status {
+        position: absolute;
+        right: 8px;
+        //display: flex;
+        ///line-height: 1.2;
+        //writing-mode: vertical-rl;
+        // text-orientation: upright;
+        padding: 6px 6px;
+        //font-size: 54%;
+        //text-transform: uppercase;
+        color: var(--f_med);
+        z-index: 1000;
+        &.hidden {
+            display: none;
+        }
+    }
+    > input.volume {
+        position: absolute;
+        width: 80px;
+        //right: 16px;
+        bottom: 44px;
+        //transform-origin: right;
+        //transform: rotateZ(-90deg);
+        margin: 4px;
+        z-index: 10000;
+        &.hidden {
+            opacity: 0;
+        }
+    }
+    > img.record {
+        position: absolute;
+        //top: 8px;
+        //left: 8px;
+        margin: 8px;
+        width: 100px;
+        border: 1px solid var(--f_med);
+        z-index: 1000;
+    }
+}

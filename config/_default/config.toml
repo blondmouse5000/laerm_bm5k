@@ -1,0 +1,4 @@
+baseURL = '/'
+
+[minify]
+  minifyOutput = false

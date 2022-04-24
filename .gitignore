@@ -1,0 +1,9 @@
+assets/*.js*
+node_modules/
+public/
+resources/
+static/font/*.ttf
+static/style.css*
+static/*.js*
+.hugo_build.lock
+

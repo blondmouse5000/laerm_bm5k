@@ -1,0 +1,22 @@
+baseURL = "http://laerm.ftl"
+domain = "laerm.ftl"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = 'LÆRM'
+description = "Ich will eine lösung keine fragen beantworten!"
+keywords = ["laerm"]
+theme_color = "#000000"
+
+disableHugoGeneratorInject = true
+#disablePathToLower = true
+enableGitInfo = true
+#enableRobotsTXT = true
+#markup.highlight.noClasses = false
+
+[social]
+    twitter = "laerm"
+    vimeo = "laerm"
+
+[author]
+  name = "tong"
+  web = "https://disktree.net"
