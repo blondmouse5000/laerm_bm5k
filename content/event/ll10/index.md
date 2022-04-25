@@ -1,9 +1,10 @@
 ---
 title: "LAERM#10"
-type: event
 date: 2022-04-15
-lineup: Null Hypothesis, Melt Unit, Captain Raveman, Oliotronix, Dj Balli, Fall Into Dry Lungs, BAM, LUI,
-eventdate: 2022-05-14
+type: event
+lineup: [Null Hypothesis, Melt Unit, Captain Raveman, Oliotronix, Dj Balli, Fall Into Dry Lungs, BAM, LUI ]
+label: Suck Puck, Lauter Laerm records, Sonic Beligeranza, dry lungs, GLeeetch, MARA
+event-date: 2022-05-14
 venue: schlor
 location: Rappachgasse 26, 1110 Wien 
 time: {
@@ -11,8 +12,8 @@ time: {
     end: 06:00
 }
 ---
-After 2 years of pandemic, Lauter Lärm is back, with another blasting event.   
 
+After 2 years of pandemic, Lauter Lärm is back, with another blasting event.   
 
 ---
 

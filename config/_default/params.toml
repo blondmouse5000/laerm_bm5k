@@ -20,3 +20,10 @@ enableGitInfo = true
 [author]
   name = "tong"
   web = "https://disktree.net"
+
+
+#taxonomies suggestion
+[taxonomies]
+  lineup = "all-acts"
+  label = "all-labels"
+  venue = "all-venues"
