@@ -1,18 +1,19 @@
 ---
 title: "LAERM#07"
-date: 2022-05-03T02:34:02+02:00
 type: event
-lineup: BZRRO BassPunk, Nadeshda, Dabit Vocem Austria, Scans, DJ Balli, Assimilatah, Rasputin
+date: 2020-04-15
+type: event
+lineup: []
 label: 
-event-date: 19-04-19
-venue: Venster 99
-location: Stadtbahnbögen 99, 1090 Wien 
+event-date:
+venue: 
+location: 26, 1110 Wien 
 time: {
     start: 22:00,
     end: 06:00
 }
+draft: true
 ---
-
 #### with
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "LAERM#04"
-date: 2022-05-03T02:39:28+02:00
+date: 2018-06-03
 type: event
 lineup: 
 label: 
@@ -12,3 +12,4 @@ time: {
     end: 06:00
 }
 ---
+...

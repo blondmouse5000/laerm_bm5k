@@ -1,11 +1,12 @@
 {{ define "main" }}
 <main>
-    <article>
-        <h1>
-            {{- .Title -}}
-        </h1>
-        <!--<img src="LAUT001.jpg">-->
-        <section>{{- .Content -}}</section>
+    <article class="record">
+        {{ $record := .Params }}
+        <h2>{{- .Title -}}</h2>
+        <a href="{{ $record.link.bandcamp }}">
+            <img src="{{- .Title -}}.jpg" class="cover">
+        </a>
+        <section class="">{{- .Content -}}</section>
     </article>
 </main>
 {{ end }}

@@ -1,6 +1,6 @@
 ---
 title: "LAERM#06"
-date: 2022-05-03T02:34:02+02:00
+date: 2020-03-03
 type: event
 lineup: 
 label: 
@@ -12,6 +12,7 @@ time: {
     end: 06:00
 }
 ---
+
 with:
 
 ---
@@ -61,7 +62,7 @@ Im gehört das Label und den Plattenvertrieb "Sozialistischer Plattenbau".
 Musikstil: Jungle Breakcore Raggacore
 Erster Gig in Wien.
 
-<http://istari.sozialistischer-plattenbau.org/>
+<https://istari.sozialistischer-plattenbau.org/>
 
 <https://soundcloud.com/istari-lasterfahrer>
 

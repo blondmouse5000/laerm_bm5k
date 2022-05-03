@@ -7,6 +7,7 @@ body {
     gap: var(--app-border);
     padding: var(--app-border);
     background: var(--fg);
+    color: var(--fg);
     > * {
         background: var(--yellow);
         padding: 1rem 1.5rem;
@@ -17,6 +18,9 @@ body {
         justify-content: center;
         text-align: center;
         user-select: none;
+
+        box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+        z-index: 1000;
         h1 {
             font-size: 16vw;
             margin: 0;
@@ -26,18 +30,37 @@ body {
     > main {
         position: relative;
         width: 100%;
+        padding: 0;
         //background: green;
         //display: flex;
         //justify-content: center;
         text-align: center;
+        overflow-x: hidden;
         overflow-y: scroll;
+        z-index: 0;
+        &::-webkit-scrollbar {
+            display:none;
+        }
         > article {
             position: relative;
-            max-width: 700px;
+            max-width: 800px;
             margin: 0 auto;
-            padding: 2rem 0;
+            padding: 2rem 1rem;
             img {
                 width: 100%;
+                margin: 1rem 0;
+                background: var(--fg);
+                border: var(--app-border) solid var(--fg);
+                //box-shadow:
+                    //3px 3px 20px rgba(0,0,0,0.2),
+                    //-3px -3px 20px rgba(0,0,0,0.2);
+
+            }
+            a:hover {
+                background: var(--fg);
+                color: var(--bg);
+                //text-decoration: underline;
+                //border-bottom: 1px solid var(--fg);
             }
         }
         .background-media {
@@ -61,8 +84,13 @@ body {
         overflow: hidden;
         font-weight: bold;
         user-select: none;
+        box-shadow: 0px -4px 20px rgba(0,0,0,0.3);
+        z-index: 1000;
         > i {
             margin: 0 0.5em;
+        }
+        a {
+            padding: 0.5em;
         }
     }
 }

@@ -8,16 +8,14 @@
     "test:html": "html-validate public/index.html",
     "test": "npm run test:html",
     "build:sass": "sass style/main.scss static/style.css",
-    "build:haxe": "haxe build.hxml -debug",
-    "build:hugo": "hugo --environment production -D --verbose --baseURL http://laerm.ftl",
-    "build": "npm run build:sass && npm run build:haxe && npm run build:hugo",
+    "build:hugo": "hugo --environment production -D --verbose",
+    "build": "npm run build:sass && npm run build:hugo",
     "dev:sass": "sass style/main.scss static/style.css --watch",
     "dev:hugo": "hugo server -D -v",
     "dev": "npm run dev:sass",
     "prod:sass": "sass style/main.scss static/style.css --no-source-map --style compressed",
-    "prod:haxe": "haxe build.hxml -dce full -D analyzer-optimize -D source-header=",
-    "js:min": "google-closure-compiler -O SIMPLE --js static/app.js --js_output_file static/app.min.js && mv static/app.min.js static/app.js",
-    "prod": "npm run clean && npm run prod:sass && npm run prod:haxe && npm run js:min"
+    "prod:hugo": "hugo --environment production -D --verbose",
+    "prod": "npm run clean && npm run prod:sass && npm run prod:hugo"
   },
   "repository": {
     "type": "git",
@@ -27,7 +25,6 @@
   "license": "ISC",
   "homepage": "https://github.com/disktree/laerm/blob/master/README.md",
   "devDependencies": {
-    "google-closure-compiler": "^20220405.0.0",
     "html-validate": "^6.7.1",
     "sass": "^1.50.0"
   }

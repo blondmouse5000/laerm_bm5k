@@ -6,4 +6,5 @@ static/font/*.ttf
 static/style.css*
 static/*.js*
 .hugo_build.lock
-
+nginx.conf
+_*/

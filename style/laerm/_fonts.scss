@@ -6,12 +6,12 @@
     font-style: normal;
     src:
         local("Roboto Mono"),
-        url("/font/RobotoMono-Regular.woff2") format('woff2');
+        url("./font/RobotoMono-Regular.woff2") format('woff2');
 }
 
 @font-face {
     font-family: "Title";
     font-display: block;
     font-style: normal;
-    src: url("/font/Bungee-Regular.woff2") format('woff2');
+    src: url("./font/Bungee-Regular.woff2") format('woff2');
 }

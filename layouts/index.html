@@ -1,4 +1,5 @@
 {{ define "main" }}
+<!--
 <style>
 main {
     display: grid;
@@ -11,5 +12,10 @@ main > h1 {
 </style>
 <main>
     <h1>{{ .Title }}</h1>
+</main>
+-->
+
+<main>
+    {{ partial "radio.html" . }} 
 </main>
 {{ end }}

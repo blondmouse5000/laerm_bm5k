@@ -17,7 +17,7 @@ html {
     font-size: var(--font-size);
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
-    transition: font-size .3s;
+    transition: font-size .1s;
 }
 
 html,
@@ -71,6 +71,7 @@ h1, h2, h3, h4 {
     line-height: 1;
     //margin-top: 1em;
     //margin-bottom: 1em;
+    cursor: default;
 
 }
 h1 {
@@ -95,8 +96,10 @@ hr {
 
 img, video {
     display: block;
-    margin-bottom: 1rem;
-    border: var(--app-border) solid var(--fg);
+    border: none;
+    outline: none;
+    //margin-bottom: 1rem;
+    //border: var(--app-border) solid var(--fg);
 }
 
 ol, ul, li {

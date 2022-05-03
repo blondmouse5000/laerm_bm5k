@@ -1,5 +1,6 @@
 ---
 title: "LAERM#10"
+type: event
 date: 2022-04-15
 type: event
 lineup: [Null Hypothesis, Melt Unit, Captain Raveman, Oliotronix, Dj Balli, Fall Into Dry Lungs, BAM, LUI ]
@@ -12,8 +13,15 @@ time: {
     end: 06:00
 }
 ---
+After 2 years of pandemic, Lauter Lärm is back, with another blasting event.   
 
-After 2 years of pandemic, Lauter Lärm is back, with another blasting event
+
+---
+
+## 14.05.2022
+### 22:00-06:00 
+### Rappachgasse 26
+### 1110 Wien 
 
 ---
 
@@ -31,14 +39,3 @@ After 2 years of pandemic, Lauter Lärm is back, with another blasting event
 {{< html >}}
 <video src="laerm-10.mp4" style="width: 100%;" controls loop>
 {{< / html >}}
- ---
-
-## 14.05.2022
-
-### 22:00-06:00
-
-### Rappachgasse 26
-
-### 1110 Wien
-
----

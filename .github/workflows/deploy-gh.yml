@@ -1,0 +1,29 @@
+name: deploy-gh
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2.5.0
+        with:
+          hugo-version: "0.96.0"
+      - name: Setup npm
+        run: npm install
+      - name: Build
+        run: |
+          npm run build:sass
+          npm run prod:hugo -- --baseURL https://disktree.github.io/laerm
+          touch public/.nojekyll
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.3.0
+        with:
+          branch: gh-pages
+          folder: public
+          clean: true
+          single-commit: true
+

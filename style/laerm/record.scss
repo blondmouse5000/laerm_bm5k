@@ -1,37 +1,30 @@
-main.record {
-
-    display: flex;
-    position: relative;
-    //background: var(--f_med);
-
-    
-
-    img.cover {
-        width: 100%;
-        //object-fit: cover;
-        //transition: width 0.3s height 0.3s;
-       /*  &:hover {
-           // width: 100%;
-            //height: auto;
-        } */
-        //mix-blend-mode: luminosity;
-        //filter: sepia(100%) contrast(100%) brightness(200%);
-        //height: 100%;
-        //box-shadow: 0px 0px 20px rgba(0, 0, 0, .99);
-        z-index: 100;
+ol.records {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
+    li.record {
+        background-color: red;
+        position: relative;
+        display: block;
+        border: var(--app-border) solid var(--fg);
+        img.cover {
+            width: 100%;
+        }
+        .info {
+            position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+            z-index: 1000;
+            //background: var(--bg);
+        }
     }
-    /* iframe {
-        // width: 100%;
-        // height: 100%;
-       // filter: contrast(200%) brightness(300%);
-       /*  position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        width: 100%;
-        height: 480px;
-        z-index: 10000;
-        background: 100%; 
-        //box-shadow: 0px 0px 20px rgba(0, 0, 0, .99);
-    } */
+}
+
+article.record {
+    img.cover {
+        //border: var(--app-border) solid var(--fg);
+    }
 }

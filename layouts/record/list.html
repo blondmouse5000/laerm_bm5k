@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main>
+    <ol class="records">
+        {{ $paginator := .Paginate .Pages }}
+        {{ range $paginator.Pages }}
+        {{ $record := .Params }} 
+        <li class="record" title="{{ $record.id }}">
+            <a href="{{ .Permalink }}">
+                <img src="laerm001/LAUT001.jpg" class="cover">
+                <!--<div class="info">-->
+                    <!--<div>{{ $record.title }}</div>-->
+                <!--</div>-->
+            </a>
+        </li>
+        {{ end }}
+    </ol>
+</main>
+{{ end }}
+

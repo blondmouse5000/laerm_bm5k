@@ -1,15 +1,15 @@
 {{ define "main" }}
 {{ $paginator := .Paginate .Data.Pages }}
 <main>
-	<ul>
+	<ol class="events">
 		{{ range $paginator.Pages }}
         <li>
             <h2>
-            <a class="link" href="{{ .Permalink }}">{{- .Title -}}</a>
+                <a class="link" href="{{ .Permalink }}">{{- .Title -}}</a>
             </h2>
         </li>
 		{{ end }}
-	</ul>
+	</ol>
 </main>
 {{ end }}
 
