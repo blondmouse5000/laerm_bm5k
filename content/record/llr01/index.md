@@ -29,8 +29,8 @@ released January 31, 2021
 #### GET IT FROM
 
 - [Sozialistischer Plattenbau](https://sozialistischer-plattenbau.org/catalog/product_info.php?products_id=2408&osCsid=f4fead626e1814882c004654121b41db)
-- [PRAXIS Records](<https://praxis-records.net/shop/vinyl/breakcore/9339/v/a-radiotherapy>)
-- [Sonic Belligeranza Megastore](https://sonicbelligeranza.com/megastore/)
+- [PRAXIS Records](https://praxis-records.net/shop/vinyl/breakcore/9339/v/a-radiotherapy)
+- [Sonic Belligeranza Megastore](https://sonicbelligeranza.com/megastore)
 - [BANDCAMP](https://lauterlaerm.bandcamp.com/album/radiotherapy)
 
 ---
