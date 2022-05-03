@@ -13,14 +13,7 @@ time: {
 }
 ---
 
-After 2 years of pandemic, Lauter Lärm is back, with another blasting event.   
-
----
-
-## 14.05.2022
-### 22:00-06:00 
-### Rappachgasse 26
-### 1110 Wien 
+After 2 years of pandemic, Lauter Lärm is back, with another blasting event
 
 ---
 
@@ -38,3 +31,14 @@ After 2 years of pandemic, Lauter Lärm is back, with another blasting event.
 {{< html >}}
 <video src="laerm-10.mp4" style="width: 100%;" controls loop>
 {{< / html >}}
+ ---
+
+## 14.05.2022
+
+### 22:00-06:00
+
+### Rappachgasse 26
+
+### 1110 Wien
+
+---

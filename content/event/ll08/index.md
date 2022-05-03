@@ -2,9 +2,9 @@
 title: "LAERM#08"
 date: 2020-05-15
 type: event
-lineup:
+lineup: Inushini, Wipeout, Dj Zoologist, HC tritt zurück, Gabber Bauch, Fall Into Dry Lungs, Assimilatah, Relaly Mosh, Rasputin
 label:
-event-date:
+event-date: 2019-08-02
 venue: Venster 99
 location: Stadtbahnbögen 99, 1090 Wien 
 time: {
@@ -13,8 +13,35 @@ time: {
 }
 ---
 
+#### with
+
+---
+
+- Inushini
+- Wipeout
+- Dj Zoologist
+- HC tritt zurück
+- Gabber Bauch
+- Fall Into Dry Lungs
+- Assimilatah
+- Relaly Mosh
+- Rasputin
+
+---
+
 {{< html >}}
 <image src="ll_8.jpg" style="width: 100%;">
 {{< / html >}}
+---
 
+## 12.10.2019
 
+### 22:00-06:00
+
+### Stadtbahnbögen 99
+
+### 1090 Wien
+
+---
+
+if you act like a brick, you get kicked
