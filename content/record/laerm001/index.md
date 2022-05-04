@@ -25,6 +25,6 @@ Special thanks to LXC for mastering this record.
 
 - [Sozialistischer Plattenbau](https://sozialistischer-plattenbau.org/catalog/product_info.php?products_id=2408&osCsid=f4fead626e1814882c004654121b41db)
 - [PRAXIS Records](<https://praxis-records.net/shop/vinyl/breakcore/9339/v/a-radiotherapy>)
-- [Sonic Belligeranza Megastore](https://www.reddit.com/r/ratemypoo/)
+- [Sonic Belligeranza Megastore](https://sonicbelligeranza.com/)
 - [BANDCAMP](https://lauterlaerm.bandcamp.com/album/radiotherapy)
 
