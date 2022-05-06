@@ -1,4 +1,4 @@
-baseURL = "https://laerm.org"
+baseURL = "https://lauter.laerm.org"
 cleandestinationdir = true
 [minify]
 	minifyOutput = true
