@@ -8,3 +8,4 @@ static/*.js*
 .hugo_build.lock
 nginx.conf
 _*/
+.idea/
