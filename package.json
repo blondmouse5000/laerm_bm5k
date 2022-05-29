@@ -26,6 +26,7 @@
   "homepage": "https://github.com/disktree/laerm/blob/master/README.md",
   "devDependencies": {
     "html-validate": "^6.7.1",
+    "hugo-bin": "^0.87.1",
     "sass": "^1.50.0"
   }
 }
