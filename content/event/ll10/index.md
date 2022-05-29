@@ -3,7 +3,7 @@ title: "LAERM#10"
 type: event
 date: 2022-04-15
 type: event
-lineup: [Null Hypothesis, Melt Unit, Captain Raveman, Oliotronix, Dj Balli, Fall Into Dry Lungs, BAM, LUI ]
+lineup: Null Hypothesis, Melt Unit, Captain Raveman, Oliotronix, Dj Balli, Fall Into Dry Lungs, BAM, LUI 
 label: Suck Puck, Lauter Laerm records, Sonic Beligeranza, dry lungs, GLeeetch, MARA
 event-date: 2022-05-14
 venue: schlor
