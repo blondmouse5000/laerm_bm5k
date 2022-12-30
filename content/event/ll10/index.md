@@ -31,8 +31,6 @@ After 2 years of pandemic, Lauter Lärm is back, with another blasting event.
 - [Fall Into Dry Lungs](https://fallinto.drylungs.at/)
 - [Sepix](https://sepix.net/)
 - [DJ Shinsekai](https://www.shinsekai.club/)
-
-and maybe
 - [Melt Unit](https://www.meltunit.com/)
 
 
